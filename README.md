@@ -6,6 +6,7 @@ The class `LexSort` construct a custom comparison operator using the specified o
 from lexsort import LexSort
 ls = LexSort()
 ls.sort(["aaa", "aa", ""], "a")
+['', 'aa', 'aaa']
 ```
 
 
